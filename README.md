@@ -9,14 +9,14 @@ console.log(name); // 결과 : 이름2
 
 같은 변수명을 써도 에러가 없음
 
-###let로 변경시
+### let로 변경시
 ```
 let name = '이름';
 let name = '이름2';// error: Identifier 'name' has already been declared.
 let name = '이름3';
 ```
 
-###let 재할당시 
+### let 재할당시 
 ```
 let name = '이름';
 console.log(name); // 이름
@@ -26,7 +26,7 @@ name = '이름3';
 console.log(name); // 이름3
 ```
 
-###const로 재할당시
+### const로 재할당시
 ```
 const name = '이름';
 console.log(name); // 이름
